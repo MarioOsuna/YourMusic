@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Your Music</string>
+    <string name="pregunta1">do you have a group?</string>
+    <string name="Saltar">SKIP</string>
+    <string name="Registrar_grupo">REGISTER GROUP</string>
+    <string name="Informacion">If you have a group, register and so you will have visibility to be hired and make yourself known.</string>
+    <string name="Confirmar" >Confirm</string>
+    <string name="cancelar">Cancel</string>
+    <string name="error_servidor">Cannot connect to the server, please check your internet connection</string>
+    <string name="Nombre_grupo">Group name</string>
+    <string name="Descripcion">Enter a description that is striking so that it catches the attention of the users, and thus have more possibilities of being hired.</string>
+    <string name="Redes_sociales">Redes Sociales</string>
+    <string name="Consejo1">It is recommended that the email you use to contact other people on behalf of the group is only and exclusively from the group, which will give you a more serious and professional character.</string>
+    <string name="consejo2">It is highly recommended to create group social networks to reach more people and give you knowledge.</string>
+    <string name="Importante">It is important that the name of the group or artist is unique and original, search if that name already exists in various social networks, also try to make it an easy name to remember and say, so it should not be too complex.</string>
+    <string name="Precio">Price</string>
+    <string name="pregunta2">Looking for a group?</string>
+    <string name="registrar_usuario">REGISTRAR USUARIO</string>
+    <string name="Info2">Find a group for a party, birthday, wedding, christenings or just to have a little party. Enter and see the groups closest to you, ratings, music and price.</string>
+    <string name="consejo3">If you wish, enter two prices, a minimum and a reasonable maximum to be able to negotiate from that price. So users who plan to hire you will know from the first moment with what price they have to negotiate. If instead you have a single price, put it on one or both sides.</string>
+</resources>

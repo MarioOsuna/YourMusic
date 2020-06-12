@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Your Music</string>
+    <string name="pregunta1">¿Tienes un grupo?</string>
+    <string name="Saltar">SALTAR</string>
+    <string name="Registrar_grupo">REGISTRAR GRUPO</string>
+    <string name="Confirmar">Confirmar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="error_servidor">No se puede conectar con el servidor, porfavor compruebe su conexión a internet</string>
+    <string name="title_activity_menu" translatable="false">MenuActivity</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings" translatable="false">Settings</string>
+
+    <string name="menu_home" translatable="false">Home</string>
+    <string name="menu_gallery" translatable="false">Gallery</string>
+    <string name="menu_slideshow" translatable="false">Slideshow</string>
+    <string name="Nombre_grupo">Nombre del grupo</string>
+    <string name="Descripcion">Introduce una descripción que sea llamativa para que llame la atención de los usuarios, y así tener más posibilidades de que os contraten.</string>
+    <string name="Redes_sociales">Redes Sociales</string>
+    <string name="Importante">Es importante que el nombre del grupo o artista sea único y original, busca si ese nombre ya existe en varias redes sociales, también procura que sea un nombre facil de recordar y decir, por lo que no debe ser demasiado comlpejo</string>
+    <string name="consejo2">Es muy aconsejable crear redes sociales del grupo para llegar a más personas y darte a conocer.</string>
+    <string name="Consejo1">Se recomienda que el correo que utiliceis para contactar con otras personas en nombre del grupo sea solo y exclusivamente del grupo, lo que os dará un caracter más serio y profesional.</string>
+    <string name="Informacion">Si tienes un grupo registrate y así tendrás visibilidad para poder ser contratado y darte a conocer.</string>
+    <string name="consejo3">Si lo deseas introduce dos precios, un mínimo y un máximo razonable para poder negociar a partir de ese precio. Así los usuarios que piensen contratarte sabran desde el primer momento con que precio tienen que negociar. Si por el contrario tienes un único precio, ponlo en uno o en ambos lados.</string>
+    <string name="Precio">Precio</string>
+    <string name="Info2">Encuentra a un grupo para una fiesta, cumpleaños, boda, bautizos o simplemente para tener un poco de marcha. Entra y mira los grupos más cercanos a ti, valoraciones, música y precio.</string>
+    <string name="pregunta2">Buscas un grupo?</string>
+    <string name="registrar_usuario">REGISTRAR USUARIO</string>
+
+</resources>

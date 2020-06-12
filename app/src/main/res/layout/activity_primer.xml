@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    tools:context=".PrimerActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="380dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="15dp"
+        android:fontFamily="@font/fuente"
+        android:gravity="center_horizontal"
+        android:text="@string/pregunta1"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="380dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/fuente"
+        android:gravity="center_horizontal"
+        android:text="@string/pregunta2"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textViewSaltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="103dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="168dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/Saltar"
+        android:textColor="#2196F3"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/textViewRegistrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginEnd="92dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/Registrar_grupo"
+        android:textColor="#2196F3"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textViewRegistrarUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="81dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/registrar_usuario"
+        android:textColor="#2196F3"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="352dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/special_elite"
+        android:gravity="center_horizontal"
+        android:text="@string/Informacion"
+        android:textColor="#100F0F"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewRegistrar" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="173dp"
+        android:layout_marginEnd="173dp"
+        android:fontFamily="@font/fuente"
+        android:text="-O-"
+        android:textColor="#070707"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="352dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/special_elite"
+        android:gravity="center_horizontal"
+        android:text="@string/Info2"
+        android:textColor="#020202"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewRegistrarUsuario" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="189dp"
+        android:layout_height="192dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textViewSaltar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:srcCompat="@drawable/icono" />
+</androidx.constraintlayout.widget.ConstraintLayout>
